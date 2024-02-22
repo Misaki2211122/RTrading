@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rtv0YndEqVFiRpzFXQGfw6wjpOsvKvOCZcKIbyQA944IBSlt5LvBEMicEBBpWwPbtZuVkSXzpwhdcIATjsR9Eg==",
+  "success": true,
+  "projectFilePath": "/Users/daniilakovlev/Documents/RTrading/RTrading.Infrastructure.Database/RTrading.Infrastructure.Database.csproj",
+  "expectedPackageFiles": [
+    "/Users/daniilakovlev/.nuget/packages/microsoft.netcore.app.ref/7.0.16/microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "/Users/daniilakovlev/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.16/microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
