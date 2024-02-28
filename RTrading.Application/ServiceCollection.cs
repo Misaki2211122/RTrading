@@ -11,8 +11,8 @@ public static class ServiceCollection
     public static void AddApplication(this IServiceCollection services)
     {
         var assembly = typeof(ServiceCollection).GetTypeInfo().Assembly;
-        services.AddMediatR(assembly);
-            
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(assembly));
+        
         var mapperConfig = new MapperConfiguration(mc =>
         {
             mc.AddProfile(new MappingProfile());
