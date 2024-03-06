@@ -1,4 +1,5 @@
 using RTading.Infrastructure.Database;
+using RTrading.Infrastructure.Backgraund;
 using RTrading.Infrastructure.Strategies;
 using RTraiding.Application;
 
@@ -10,6 +11,7 @@ var configuration = builder.Configuration;
 services.AddApplication();
 services.AddInfrastructureDataBase(configuration);
 services.AddInfrastructureStrategies(configuration);
+services.AddInfrastructureBackgraund();
 //API
 builder.Services.AddControllers();
 builder.Services.AddHttpClient();

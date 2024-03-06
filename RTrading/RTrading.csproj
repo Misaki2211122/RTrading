@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\RTrading.Application\RTrading.Application.csproj" />
+      <ProjectReference Include="..\RTrading.Infrastructure.Backgraund\RTrading.Infrastructure.Backgraund.csproj" />
       <ProjectReference Include="..\RTrading.Infrastructure.Database\RTrading.Infrastructure.Database.csproj" />
       <ProjectReference Include="..\RTrading.Infrastructure.Strategies\RTrading.Infrastructure.Strategies.csproj" />
     </ItemGroup>
