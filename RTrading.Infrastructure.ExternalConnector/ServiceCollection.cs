@@ -1,6 +1,10 @@
-namespace RTrading.Infrastructure.ExteralConnector;
+using Microsoft.Extensions.DependencyInjection;
 
-public class ServiceCollection
+namespace RTrading.Infrastructure.ExternalConnector;
+
+public static class ServiceCollection
 {
-    
+    public static void AddInfrastructureExternalConnector(this IServiceCollection services)
+    {
+    }
 }
