@@ -1,3 +1,5 @@
+using RTading.Infrastructure.Database;
+using RTrading.Infrastructure.Strategies;
 using RTraiding.Application;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,7 +8,8 @@ var configuration = builder.Configuration;
 
 // dependencies
 services.AddApplication();
-
+services.AddInfrastructureDataBase(configuration);
+services.AddInfrastructureStrategies(configuration);
 //API
 builder.Services.AddControllers();
 builder.Services.AddHttpClient();

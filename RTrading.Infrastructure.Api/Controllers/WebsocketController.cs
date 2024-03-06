@@ -40,7 +40,7 @@ public class WebsocketController : ControllerBase
         }
         catch (Exception e)
         {
-            Console.WriteLine(e.Message);
+            
         }
     }
 
