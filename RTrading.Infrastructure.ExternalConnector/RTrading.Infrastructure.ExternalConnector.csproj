@@ -1,14 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>RTrading.Infrastructure.ExteralConnector</RootNamespace>
     </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="MediatR" Version="12.2.0" />
-    </ItemGroup>
 
 </Project>
